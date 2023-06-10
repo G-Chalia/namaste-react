@@ -1,1 +1,1 @@
-# Namaste React
+# namaste-react
