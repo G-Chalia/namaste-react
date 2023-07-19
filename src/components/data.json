@@ -1,0 +1,2214 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cacheExpiryTime": 320,
+    "pages": 1,
+    "pageIndex": 0,
+    "scrubber": 0,
+    "filters": [
+      {
+        "type": "FilterWidget",
+        "title": "Cuisines",
+        "key": "CUISINES",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          {
+            "option": "American",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Bakery",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Beverages",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Biryani",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Burgers",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Chaat",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Chinese",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Continental",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Desserts",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Fast Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Grill",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Healthy Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Hyderabadi",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Ice Cream",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Ice Cream Cakes",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Italian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Italian-American",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Kebabs",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Lucknowi",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Mexican",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Mughlai",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "North Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pastas",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pizzas",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Punjabi",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Salads",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Snacks",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "South Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Street Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Sweets",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Tandoor",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Thalis",
+            "selected": 0,
+            "visible": 1
+          }
+        ],
+        "detail": "",
+        "heading": "Cuisines",
+        "applicable": 1,
+        "searchable": 1
+      },
+      {
+        "type": "FilterWidget",
+        "title": "Show Restaurants With",
+        "key": "SHOW_RESTAURANTS_WITH",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          {
+            "option": "Pure Veg",
+            "selected": 0,
+            "visible": 1
+          }
+        ],
+        "detail": "",
+        "heading": "Offers & More",
+        "applicable": 1,
+        "searchable": 0
+      }
+    ],
+    "sorts": [
+      {
+        "type": "SortWidget",
+        "key": "RELEVANCE",
+        "title": "Relevance",
+        "selected": 1,
+        "visible": 1,
+        "defaultSelection": true
+      },
+      {
+        "type": "SortWidget",
+        "key": "DELIVERY_TIME",
+        "title": "Delivery Time",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "RATING",
+        "title": "Rating",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO",
+        "title": "Cost: Low to High",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO_H2L",
+        "title": "Cost: High to Low",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      }
+    ],
+    "configs": {
+      "ribbons": {
+        "PREORDER": {
+          "type": "PREORDER",
+          "text": "Preorder",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 3
+        },
+        "EXCLUSIVE": {
+          "type": "EXCLUSIVE",
+          "text": "Exclusive",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 2
+        },
+        "NEW": {
+          "type": "NEW",
+          "text": "Newly Added",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 4
+        },
+        "REPEAT": {
+          "type": "REPEAT",
+          "text": "Repeat",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#D53D4C",
+          "bottomBackgroundColor": "#B02331",
+          "priority": 6
+        },
+        "CLOUD": {
+          "type": "CLOUD",
+          "text": "Daily Menus",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 5
+        },
+        "PREMIUM": {
+          "type": "PREMIUM",
+          "text": "Premium",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#8a584b",
+          "bottomBackgroundColor": "#583229",
+          "priority": 7
+        },
+        "PROMOTED": {
+          "type": "PROMOTED",
+          "text": "Promoted",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#3a3c41",
+          "bottomBackgroundColor": "#1e2023",
+          "priority": 1
+        }
+      },
+      "croutons": {
+        "SPECIAL": {
+          "type": "Crouton",
+          "bgColor": "#282C3F",
+          "icon": "surge_listing_piuzrv",
+          "textColor": "#ffffff",
+          "title": "High Demand",
+          "message": "Surge fee of Rs ${amount} may be applicable"
+        }
+      }
+    },
+    "cards": [
+      {
+        "cardType": "carousel",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "carousel",
+          "subtype": "topCarousel",
+          "data": {
+            "cards": [
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 635529,
+                  "creativeId": "rng/md/carousel/production/pneknawbadtvceqzwiep",
+                  "type": "restaurantCollectionV2",
+                  "link": "49301",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181635,
+                  "creativeId": "rng/md/carousel/production/yparhmxrby5lv0ubsel4",
+                  "type": "restaurantCollectionV2",
+                  "link": "56413",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181629,
+                  "creativeId": "rng/md/carousel/production/lyn9at38gjithnogzfui",
+                  "type": "restaurantCollectionV2",
+                  "link": "56417",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 607193,
+                  "creativeId": "rng/md/carousel/production/s5ug2key6e2sptaxku5v",
+                  "type": "restaurantCollectionV2",
+                  "link": "56410",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 607188,
+                  "creativeId": "rng/md/carousel/production/oxe97jexxbnxqtbhg2zo",
+                  "type": "restaurantCollectionV2",
+                  "link": "11740",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 607195,
+                  "creativeId": "rng/md/carousel/production/ifi2lbzxeu1hvsqrsip3",
+                  "type": "restaurantCollectionV2",
+                  "link": "56421",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              }
+            ]
+          }
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "carousel",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "carousel",
+          "subtype": "openFilter",
+          "data": {
+            "cards": [
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181684,
+                  "creativeId": "bkhjfipzydkoqncrxpyi",
+                  "type": "restaurantCollectionV2",
+                  "link": "11718",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "title": "Offers Near You",
+                  "subtitle": "0 OPTIONS",
+                  "restaurants": [],
+                  "totalCount": 0,
+                  "dwebOpenFilterTitle": "Offers Near You",
+                  "dwebOpenFilterBgColor": "#FF0000",
+                  "dwebOpenFilterSelectIcon": "eyperwsfhaoa5vktjtu4",
+                  "dwebOpenFilterDeselectIcon": "urw8usdf4mk9aywd59gq"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181680,
+                  "creativeId": "a3jqjjod5taken7dh1bs",
+                  "type": "restaurantCollectionV2",
+                  "link": "11721",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "title": "Veg Only",
+                  "subtitle": "0 OPTIONS",
+                  "restaurants": [],
+                  "totalCount": 0,
+                  "dwebOpenFilterTitle": "Vegetarian Options",
+                  "dwebOpenFilterBgColor": "#FF0000",
+                  "dwebOpenFilterSelectIcon": "qtjc8dzfexg72lug37a0",
+                  "dwebOpenFilterDeselectIcon": "bm8bziikwyvwqsml1clm"
+                }
+              }
+            ]
+          }
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "seeAllRestaurants",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "seeAllRestaurants",
+          "data": {
+            "title": "SEE ALL",
+            "totalOpenRestaurants": 58,
+            "cards": [
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "339537",
+                  "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+                  "uuid": "728c93d3-3874-4a77-a3cd-190ae5ac9520",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "j69noh6rv9icj429tbgn",
+                  "cuisines": ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 30,
+                  "minDeliveryTime": 30,
+                  "maxDeliveryTime": 30,
+                  "slaString": "30 MINS",
+                  "lastMileTravel": 2.5,
+                  "slugs": {
+                    "restaurant": "kwality-walls-frozen-dessert-and-ice-cream-shop-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "HOUSE NO. 396/21 GALI NO. 8 UTTAM VIHAR RHOTAK, District - Rohtak, STATE - Haryana",
+                  "locality": "Uttam Vihar",
+                  "parentId": 582,
+                  "unserviceable": false,
+                  "veg": true,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "ribbon": [
+                    {
+                      "type": "PROMOTED"
+                    }
+                  ],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=7398456~p=1~eid=00000189-40fd-634e-10cd-4ea700520109~srvts=1689012495182",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "2.5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "339537",
+                    "deliveryTime": 30,
+                    "minDeliveryTime": 30,
+                    "maxDeliveryTime": 30,
+                    "lastMileTravel": 2.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": true,
+                  "avgRating": "4.3",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "462282",
+                  "name": "Gulab Sweets and Restaurant",
+                  "uuid": "86dbe0fb-23b9-4b4f-9a2c-cdfc1389d452",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "5000+ ratings",
+                  "cloudinaryImageId": "ufdkk4hduliv2cqnvqox",
+                  "cuisines": [
+                    "South Indian",
+                    "Chinese",
+                    "Indian",
+                    "North Indian",
+                    "Beverages",
+                    "Chaat",
+                    "Pastas",
+                    "Sweets",
+                    "Street Food",
+                    "Desserts"
+                  ],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 24,
+                  "minDeliveryTime": 24,
+                  "maxDeliveryTime": 24,
+                  "slaString": "24 MINS",
+                  "lastMileTravel": 0.30000001192092896,
+                  "slugs": {
+                    "restaurant": "m/s-aditya-rai-and-company/gulab-rewri-and-gajjak-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "NH-10,B-70,Sheela Bye Pass,Delhi Road, Rohtak, Rohtak, Haryana-124001",
+                  "locality": "Sheela Bypaas Chowk",
+                  "parentId": 91305,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.3 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "60% OFF",
+                    "subHeader": "UPTO ₹120",
+                    "discountTag": "",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "462282",
+                    "deliveryTime": 24,
+                    "minDeliveryTime": 24,
+                    "maxDeliveryTime": 24,
+                    "lastMileTravel": 0.30000001192092896,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 5000,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "128780",
+                  "name": "Pizza Wings",
+                  "uuid": "836ee7f3-6e38-4f32-8262-6e4f8191f932",
+                  "city": "166",
+                  "area": "Chankyapuri",
+                  "totalRatingsString": "5000+ ratings",
+                  "cloudinaryImageId": "a46a6aa00709f771fabb45c864a81b5e",
+                  "cuisines": [
+                    "Pizzas",
+                    "Italian-American",
+                    "Beverages",
+                    "Continental",
+                    "Pastas"
+                  ],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 23,
+                  "minDeliveryTime": 23,
+                  "maxDeliveryTime": 23,
+                  "slaString": "23 MINS",
+                  "lastMileTravel": 0.5,
+                  "slugs": {
+                    "restaurant": "pizza-wings-rohtak-locality-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Plot No 71, Chanakyapuri Sheela Bypass Rohtak, Rohtak Locality, Rohtak",
+                  "locality": "Chanakyapuri Sheela Bypass",
+                  "parentId": 159048,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.5 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "₹125 OFF",
+                    "subHeader": "ABOVE ₹199",
+                    "discountTag": "FLAT DEAL",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "128780",
+                    "deliveryTime": 23,
+                    "minDeliveryTime": 23,
+                    "maxDeliveryTime": 23,
+                    "lastMileTravel": 0.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.9",
+                  "totalRatings": 5000,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "603776",
+                  "name": "Jugnu Grill Flame",
+                  "uuid": "cf814a47-8b9c-4a2b-94f8-7df1e29843ec",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "6b2a05a379e79084d5c5ec12d1b4dd1a",
+                  "cuisines": ["Chinese", "North Indian", "Tandoor", "Grill"],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 21,
+                  "minDeliveryTime": 21,
+                  "maxDeliveryTime": 21,
+                  "slaString": "21 MINS",
+                  "lastMileTravel": 0.800000011920929,
+                  "slugs": {
+                    "restaurant": "ankit-foods-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Shop no 517/2 ward no 23, Ashoka Chowk Rohtak (Rural) (Part) (74) Rohtak Haryana 124001",
+                  "locality": "Ashoka Chowk",
+                  "parentId": 111801,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.8 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "603776",
+                    "deliveryTime": 21,
+                    "minDeliveryTime": 21,
+                    "maxDeliveryTime": 21,
+                    "lastMileTravel": 0.800000011920929,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "128791",
+                  "name": "Pizza Choice",
+                  "uuid": "b422872f-335a-4628-b062-90cb26b6d8b2",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "5000+ ratings",
+                  "cloudinaryImageId": "xheysiet81o1h8zofhdm",
+                  "cuisines": ["Pizzas", "Continental", "Italian"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 25,
+                  "minDeliveryTime": 25,
+                  "maxDeliveryTime": 25,
+                  "slaString": "25 MINS",
+                  "lastMileTravel": 2.4000000953674316,
+                  "slugs": {
+                    "restaurant": "pizza-choice-rohtak-locality-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Near Jat College, Rohtak, Rohtak Locality, Rohtak",
+                  "locality": "Jat College Road",
+                  "parentId": 158448,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "2.4 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "₹125 OFF",
+                    "subHeader": "ABOVE ₹199",
+                    "discountTag": "FLAT DEAL",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "128791",
+                    "deliveryTime": 25,
+                    "minDeliveryTime": 25,
+                    "maxDeliveryTime": 25,
+                    "lastMileTravel": 2.4000000953674316,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.7",
+                  "totalRatings": 5000,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "623336",
+                  "name": "New Taj Hotel",
+                  "uuid": "4924b7f5-f57e-4477-91a8-81b6f84e8518",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "vwkg3m7mkb7bqnrl62ez",
+                  "cuisines": [
+                    "North Indian",
+                    "Thalis",
+                    "Chinese",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 31,
+                  "minDeliveryTime": 31,
+                  "maxDeliveryTime": 31,
+                  "slaString": "31 MINS",
+                  "lastMileTravel": 0.5,
+                  "slugs": {
+                    "restaurant": "new-taj-hotel-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "5698, Bharat Colony, Model Town, Rohtak, Haryana 124001, India",
+                  "locality": "Bharat Colony",
+                  "parentId": 148192,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.5 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "30% OFF",
+                    "subHeader": "UPTO ₹75",
+                    "discountTag": "",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "623336",
+                    "deliveryTime": 31,
+                    "minDeliveryTime": 31,
+                    "maxDeliveryTime": 31,
+                    "lastMileTravel": 0.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.6",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "614346",
+                  "name": "Da Pizza Hub",
+                  "uuid": "84ef07d6-c73a-4092-83d5-cce4ff96351a",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "njqmtsrjjdifgjmaqn4k",
+                  "cuisines": ["Pizzas"],
+                  "tags": [],
+                  "costForTwo": 15000,
+                  "costForTwoString": "₹150 FOR TWO",
+                  "deliveryTime": 28,
+                  "minDeliveryTime": 28,
+                  "maxDeliveryTime": 28,
+                  "slaString": "28 MINS",
+                  "lastMileTravel": 0.5,
+                  "slugs": {
+                    "restaurant": "da-pizza-hub-rohtak-city-rohtak-city-2",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "ground floor, Gulab Sweets  near sheela bypass, Rohtak Haryana 124001",
+                  "locality": "Sheela Bypass",
+                  "parentId": 67438,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.5 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "60% OFF",
+                    "subHeader": "UPTO ₹120",
+                    "discountTag": "",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "614346",
+                    "deliveryTime": 28,
+                    "minDeliveryTime": 28,
+                    "maxDeliveryTime": 28,
+                    "lastMileTravel": 0.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.6",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "136238",
+                  "name": "Pizza Hut",
+                  "uuid": "36f8aeb9-4110-447b-98ac-06cbb7b43b98",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+                  "cuisines": ["Pizzas"],
+                  "tags": [],
+                  "costForTwo": 35000,
+                  "costForTwoString": "₹350 FOR TWO",
+                  "deliveryTime": 30,
+                  "minDeliveryTime": 30,
+                  "maxDeliveryTime": 30,
+                  "slaString": "30 MINS",
+                  "lastMileTravel": 0.8999999761581421,
+                  "slugs": {
+                    "restaurant": "pizza-hut-civil-lines-rohtak-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Pizza Hut 190, Civil lInes rohtak Delhi Road ROHTAK, Haryana 124001",
+                  "locality": "Delhi Road",
+                  "parentId": 721,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.8 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "136238",
+                    "deliveryTime": 30,
+                    "minDeliveryTime": 30,
+                    "maxDeliveryTime": 30,
+                    "lastMileTravel": 0.8999999761581421,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.6",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "488899",
+                  "name": "Sunil Dhaba",
+                  "uuid": "0e064616-855e-4d81-807b-c0c9efc0e74f",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "ylmtqnndemexf5feauej",
+                  "cuisines": [
+                    "Indian",
+                    "Beverages",
+                    "Tandoor",
+                    "South Indian",
+                    "North Indian"
+                  ],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 34,
+                  "minDeliveryTime": 34,
+                  "maxDeliveryTime": 34,
+                  "slaString": "34 MINS",
+                  "lastMileTravel": 1,
+                  "slugs": {
+                    "restaurant": "sunil-dhaba-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "SHOP NO. 5,RAM GOPAL COLONY,SHEELA BYE PASS, Rohtak (Rural)(Part)(74), Rohtak, Rohtak, Haryana - 124001",
+                  "locality": "Ram Gopal Colony",
+                  "parentId": 197098,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "1 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "₹75 OFF",
+                    "subHeader": "ABOVE ₹199",
+                    "discountTag": "FLAT DEAL",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "488899",
+                    "deliveryTime": 34,
+                    "minDeliveryTime": 34,
+                    "maxDeliveryTime": 34,
+                    "lastMileTravel": 1,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.5",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "100247",
+                  "name": "Bunny's Kitchen",
+                  "uuid": "89dfae26-05b6-40cc-b1f8-5c8ef964b45a",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "psawfpihourmksl8f3pl",
+                  "cuisines": [
+                    "Pizzas",
+                    "Continental",
+                    "Italian",
+                    "Beverages",
+                    "Pastas"
+                  ],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 41,
+                  "minDeliveryTime": 41,
+                  "maxDeliveryTime": 41,
+                  "slaString": "41 MINS",
+                  "lastMileTravel": 0.4000000059604645,
+                  "slugs": {
+                    "restaurant": "monkey-cafe-sector-13-sector-13",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Shop No 1 Opposite Pind Balluchi,Near Sheela Bypass, Rohtak - 124001, Rohtak Locality, Rohtak",
+                  "locality": "Sheela Bypass",
+                  "parentId": 376280,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.4 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "60% OFF",
+                    "subHeader": "UPTO ₹120",
+                    "discountTag": "",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "100247",
+                    "deliveryTime": 41,
+                    "minDeliveryTime": 41,
+                    "maxDeliveryTime": 41,
+                    "lastMileTravel": 0.4000000059604645,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.8",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "552338",
+                  "name": "Burger Singh (Big Punjabi Burgers)",
+                  "uuid": "cb86d250-36b7-4190-b194-940741a55cbe",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "tbb48uzeek29yvgcrxcb",
+                  "cuisines": [
+                    "Burgers",
+                    "Snacks",
+                    "Fast Food",
+                    "Indian",
+                    "American",
+                    "Desserts",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 30000,
+                  "costForTwoString": "₹300 FOR TWO",
+                  "deliveryTime": 19,
+                  "minDeliveryTime": 19,
+                  "maxDeliveryTime": 19,
+                  "slaString": "19 MINS",
+                  "lastMileTravel": 0.8999999761581421,
+                  "slugs": {
+                    "restaurant": "burger-singh-(big-punjabi-burgers)-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "158/10, Jasbir Colony, Ground Floor, Sonepat Road, Rohtak, Haryana 124001",
+                  "locality": "Jasbir Colony",
+                  "parentId": 375065,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.8 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "50% OFF",
+                    "subHeader": "UPTO ₹100",
+                    "discountTag": "",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "552338",
+                    "deliveryTime": 19,
+                    "minDeliveryTime": 19,
+                    "maxDeliveryTime": 19,
+                    "lastMileTravel": 0.8999999761581421,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.2",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "364935",
+                  "name": "Behrouz Biryani",
+                  "uuid": "ec3a365a-aa6e-450a-af2d-078ef36c7946",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "zhctitkdmpb0go44j4by",
+                  "cuisines": [
+                    "Biryani",
+                    "Mughlai",
+                    "Lucknowi",
+                    "Hyderabadi",
+                    "Kebabs",
+                    "North Indian",
+                    "Desserts",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 50000,
+                  "costForTwoString": "₹500 FOR TWO",
+                  "deliveryTime": 24,
+                  "minDeliveryTime": 24,
+                  "maxDeliveryTime": 24,
+                  "slaString": "24 MINS",
+                  "lastMileTravel": 0.800000011920929,
+                  "slugs": {
+                    "restaurant": "behrouz-biryani-rohtak-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Shop No. 22, G.F , Geeta Complex Delhi Road Rohtak,  Rohtak, Haryana 124001",
+                  "locality": "Delhi Road",
+                  "parentId": 1803,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.8 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "364935",
+                    "deliveryTime": 24,
+                    "minDeliveryTime": 24,
+                    "maxDeliveryTime": 24,
+                    "lastMileTravel": 0.800000011920929,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.4",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "636736",
+                  "name": "Dazzles Chaap",
+                  "uuid": "dbe6ddc0-d16f-4559-92a8-92ba818f4ed4",
+                  "city": "166",
+                  "area": "Rohtak City",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "649c351d4a55916a92070d8d09297cd8",
+                  "cuisines": [
+                    "North Indian",
+                    "Snacks",
+                    "Chinese",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 33,
+                  "minDeliveryTime": 33,
+                  "maxDeliveryTime": 33,
+                  "slaString": "33 MINS",
+                  "lastMileTravel": 0.4000000059604645,
+                  "slugs": {
+                    "restaurant": "p-n-foods-(dazzles)-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Shop No.4, Chanakyapuri Delhi Road, Sheila Bypass Chowk, Rohtak, Rohtak, Rohtak, Haryana-124001",
+                  "locality": "Chanakyapuri",
+                  "parentId": 384551,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "0.4 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "₹175 OFF",
+                    "subHeader": "ABOVE ₹349",
+                    "discountTag": "FLAT DEAL",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "636736",
+                    "deliveryTime": 33,
+                    "minDeliveryTime": 33,
+                    "maxDeliveryTime": 33,
+                    "lastMileTravel": 0.4000000059604645,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.3",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "637944",
+                  "name": "Kathi Roll Kingdom",
+                  "uuid": "d6fbc948-eb38-461b-887a-30bac4bca6a2",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "x9smmqjmfto6iazqoe7k",
+                  "cuisines": ["Snacks"],
+                  "tags": [],
+                  "costForTwo": 15000,
+                  "costForTwoString": "₹150 FOR TWO",
+                  "deliveryTime": 27,
+                  "minDeliveryTime": 27,
+                  "maxDeliveryTime": 27,
+                  "slaString": "27 MINS",
+                  "lastMileTravel": 2,
+                  "slugs": {
+                    "restaurant": "kathi-roll-kingdom-rohtak-city-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "VJQ7+254, Model Town, Rohtak, Haryana 124001, India",
+                  "locality": "Model Town",
+                  "parentId": 317752,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "2 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "50% OFF",
+                    "subHeader": "",
+                    "discountTag": "FLAT DEAL",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "637944",
+                    "deliveryTime": 27,
+                    "minDeliveryTime": 27,
+                    "maxDeliveryTime": 27,
+                    "lastMileTravel": 2,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.6",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "130775",
+                  "name": "Pind Punjab",
+                  "uuid": "d5b0dfe5-01e7-4201-81fe-0987a67d5e32",
+                  "city": "166",
+                  "area": "Rohtak",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "cu3x95yvggrcbuzhmdpf",
+                  "cuisines": [
+                    "North Indian",
+                    "Snacks",
+                    "Tandoor",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 33,
+                  "minDeliveryTime": 33,
+                  "maxDeliveryTime": 33,
+                  "slaString": "33 MINS",
+                  "lastMileTravel": 1.2999999523162842,
+                  "slugs": {
+                    "restaurant": "sher-e-punjab-rohtak-locality-rohtak-city",
+                    "city": "rohtak"
+                  },
+                  "cityState": "166",
+                  "address": "Delhi Road, Rohtak - 124001, Near Raj Palace, Rohtak Locality, Rohtak",
+                  "locality": "Delhi Road",
+                  "parentId": 4196,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      {
+                        "name": "time",
+                        "fee": 0,
+                        "message": ""
+                      },
+                      {
+                        "name": "distance",
+                        "fee": 1900,
+                        "message": ""
+                      },
+                      {
+                        "name": "special",
+                        "fee": 1500,
+                        "message": ""
+                      }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "1.2 kms",
+                  "hasSurge": false,
+                  "aggregatedDiscountInfoV3": {
+                    "header": "₹125 OFF",
+                    "subHeader": "ABOVE ₹199",
+                    "discountTag": "FLAT DEAL",
+                    "headerTypeV2": 0
+                  },
+                  "sla": {
+                    "restaurantId": "130775",
+                    "deliveryTime": 33,
+                    "minDeliveryTime": 33,
+                    "maxDeliveryTime": 33,
+                    "lastMileTravel": 1.2999999523162842,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "2.6",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic",
+                "crouton": {
+                  "type": "SPECIAL",
+                  "metaInfo": {
+                    "bgColor": "#282C3F",
+                    "icon": "surge_listing_piuzrv",
+                    "textColor": "#ffffff",
+                    "title": "High Demand",
+                    "message": "Surge fee of Rs ₹15 may be applicable"
+                  }
+                }
+              }
+            ],
+            "totalRestaurants": 99
+          },
+          "subtype": "personalized"
+        },
+        "parentWidget": false
+      }
+    ],
+    "nextPageFetch": 0
+  },
+  "tid": "fa414458-6bb0-4060-a8c4-9290f65c35a1",
+  "sid": "83zaebf2-b400-4317-9cc3-502c9d58187a",
+  "deviceId": "e8a14d25-eeab-0b10-936f-6dba18c13b0b",
+  "csrfToken": "yt4SwXqjnd0s-1bLPKd9PTo7F6mCrksP2xK9-XOU"
+}
