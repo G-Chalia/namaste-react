@@ -3,21 +3,24 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <div className="header">
+    <div className="flex justify-between bg-pink-50 shadow-lg rounded-xl sm:bg-pink-200">
       <Title />
       <div className="nav-items">
-        <ul>
+        <ul className="flex py-10">
           <Link to="/">
-            <li>Home</li>
+            <li className="px-2">Home</li>
           </Link>
 
           <Link to="/about">
-            <li>About</li>
+            <li className="px-2">About</li>
           </Link>
           <Link to="/contact">
-            <li>Contact</li>
+            <li className="px-2">Contact</li>
           </Link>
-          <li>Cart</li>
+          <Link to="/instamart">
+            <li className="px-2">Instamart</li>
+          </Link>
+          <li className="px-2">Cart</li>
         </ul>
       </div>
       <button>Login</button>

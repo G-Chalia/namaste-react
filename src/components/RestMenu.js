@@ -1,20 +1,14 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import useResturant from "../utils/useResturant";
 
 const RestMenu = () => {
   const params = useParams();
-  const [restInformation, setRestInformation] = useState({});
-  console.log("params", params);
 
-  //   useEffect(() => {
-  //     getResturantInfo();
-  //   });
+  const restInformation = useResturant(params.id);
+  //const [restInformation, setRestInformation] = useState({});
+  console.log("params", restInformation);
 
-  //   const getResturantInfo = async () => {
-  //     const data = await fetch();
-  //     const json = await data.json();
-  //     setRestInformation(json);
-  //   };
   return (
     <div>
       <h1>Resturant {params.id} </h1>

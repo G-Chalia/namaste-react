@@ -27,4 +27,4 @@ class About extends React.Component {
   }
 }
 
-export default About2;
+export default About;

@@ -3,7 +3,7 @@ const Title = () => {
     <>
       <a href="/">
         <img
-          className="logo"
+          className="h-28 p-2"
           alt="logo"
           src="https://img.freepik.com/premium-vector/healthy-food-logo_476121-95.jpg?w=740"
         />

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import jsonData from "./data.json";
 import ShimmerUI from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnline from "../utils/useOnline";
 
 const Body = () => {
   const [searchText, setSearchText] = useState("");
@@ -12,7 +13,8 @@ const Body = () => {
   const [search, setSearch] = useState(Boolean);
   const [loading, setLoading] = useState(false);
 
-  // console.log(jsonData);
+  const localStorage = window.localStorage;
+  console.log("local", localStorage);
 
   const filterData = (restaurant, searchText) => {
     //console.log(restaurant);
@@ -54,11 +56,14 @@ const Body = () => {
     }
   }
 
-  // console.log("render", restaurant);
+  const isOnline = useOnline();
+  if (!isOnline) {
+    return <h1>Offline, Please Check Your Internet Connection</h1>;
+  }
 
   return (
     <>
-      <div className="search-container">
+      <div className="p-5 bg-pink-50 my-5 w-1/3 rounded-xl shadow-lg">
         <input
           type="text"
           className="search-text"
@@ -67,7 +72,7 @@ const Body = () => {
           onChange={(e) => onSearch(e)}
         />
         <button
-          className="search-btn"
+          className="p-2 m-2 bg-purple-700 text-white"
           onClick={() => {
             const data = filterData(allrestaurant, searchText);
             setfilteredRestaurant(data);
@@ -80,7 +85,7 @@ const Body = () => {
       {loading ? (
         <ShimmerUI />
       ) : (
-        <div className="resturant-list">
+        <div className="flex flex-wrap justify-evenly">
           {filteredrestaurant && filteredrestaurant.length !== 0 ? (
             filteredrestaurant.map((restaurant, index) => {
               return (

@@ -19,8 +19,12 @@ class Profile extends React.Component {
     console.log("CHILD-didmoount");
   }
 
-  componentDidUpdate(prevProps, prevSate) {
-    console.log("CHILD-didupdate");
+  //   componentDidUpdate(prevProps, prevSate) {
+  //     console.log("CHILD-didupdate");
+  //   }
+
+  componentWillUnmount() {
+    console.log("CHILD-will unamount");
   }
 
   render() {

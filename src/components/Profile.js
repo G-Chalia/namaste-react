@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 const ProfileFunctional = (props) => {
   const [count, setcount] = React.useState(0);
+
   useEffect(() => {
     const timer = setInterval(() => {
       console.log("Time Started");
