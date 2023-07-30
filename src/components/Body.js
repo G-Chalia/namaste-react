@@ -1,10 +1,11 @@
 import RestruantCard from "./ResturantCard";
 import { restData } from "../constants";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import jsonData from "./data.json";
 import ShimmerUI from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnline from "../utils/useOnline";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   const [searchText, setSearchText] = useState("");
@@ -12,9 +13,9 @@ const Body = () => {
   const [filteredrestaurant, setfilteredRestaurant] = useState([]);
   const [search, setSearch] = useState(Boolean);
   const [loading, setLoading] = useState(false);
+  const { user, setUser } = useContext(UserContext);
 
   const localStorage = window.localStorage;
-  console.log("local", localStorage);
 
   const filterData = (restaurant, searchText) => {
     //console.log(restaurant);
@@ -81,6 +82,24 @@ const Body = () => {
         >
           Search
         </button>
+        <input
+          value={user.name}
+          onChange={(e) => {
+            setUser({
+              ...user,
+              name: e.target.value,
+            });
+          }}
+        />
+        <input
+          value={user.email}
+          onChange={(e) => {
+            setUser({
+              ...user,
+              email: e.target.value,
+            });
+          }}
+        />
       </div>
       {loading ? (
         <ShimmerUI />

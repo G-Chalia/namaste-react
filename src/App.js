@@ -10,21 +10,32 @@ import Contact from "./components/Contact";
 import RestMenu from "./components/RestMenu";
 import Profile from "./components/ProfileClass";
 import ShimmerUI from "./components/Shimmer";
+import UserContext from "./utils/UserContext";
 //import Instamart from "./components/Instamart";
+import { Provider } from "react-redux";
+import store from "./utils/store";
+import Cart from "./components/Cart";
 
 const Instamart = lazy(() => import("./components/Instamart"));
 // on demand loading --> upon render ---> react suspends
 
 const AppLayout = () => {
+  const [user, setUser] = React.useState({
+    name: "Gaurav Chalia",
+    email: "gaurav@javascript.com",
+  });
+
   return (
-    <>
-      <HeaderComponent />
-      {/* <Body /> */}
-      {/****** For Nested Routing we have used Outlet */}
-      {/***All Children will go into outlet */}
-      <Outlet />
-      <Footer />
-    </>
+    <Provider store={store}>
+      <UserContext.Provider value={{ user: user, setUser: setUser }}>
+        <HeaderComponent />
+        {/* <Body /> */}
+        {/****** For Nested Routing we have used Outlet */}
+        {/***All Children will go into outlet */}
+        <Outlet />
+        <Footer />
+      </UserContext.Provider>
+    </Provider>
   );
 };
 // For Children to be render create Outlet In the Parent component
@@ -63,6 +74,10 @@ const appRouter = createBrowserRouter([
             <Instamart />
           </Suspense>
         ),
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
   },
